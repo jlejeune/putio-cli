@@ -1,6 +1,8 @@
 putio-cli
 =========
 
+<a href='https://travis-ci.org/jlejeune/putio-cli'><img src='https://secure.travis-ci.org/jlejeune/putio-cli.png?branch=master'></a>
+
 *A command line program in Python to talk to Put.io Rest API*
 
 
