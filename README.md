@@ -1,13 +1,9 @@
 putio-cli
 =========
 
-.. image:: https://travis-ci.org/jlejeune/putio-cli.svg?branch=master
-           :alt: Build Status
-           :target: https://travis-ci.org/jlejeune/putio-cli
+<a href='https://travis-ci.org/jlejeune/putio-cli'><img src='https://secure.travis-ci.org/jlejeune/putio-cli.png?branch=master'></a>
 
-.. image:: https://codecov.io/github/jlejeune/putio-cli/coverage.svg?branch=master
-           :alt: Code Coverage
-           :target: https://codecov.io/github/jlejeune/putio-cli?branch=master
+<a href='https://codecov.io/github/jlejeune/putio-cli?branch=master'><img src='https://codecov.io/github/jlejeune/putio-cli/coverage.svg?branch=master'></a>
 
 *A command line program in Python to talk to Put.io Rest API*
 
