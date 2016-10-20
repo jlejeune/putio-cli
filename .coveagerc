@@ -1,0 +1,6 @@
+[run]
+branch = True
+source = putio_cli
+
+[report]
+ignore_errors = true
