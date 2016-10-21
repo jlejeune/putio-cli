@@ -6,8 +6,8 @@ install:
   - pip install -r requirements.txt
   - pip install tox
 before_install:
-  - pip install codecov
+  - pip install coveralls
 script:
   - tox
 after_success:
-  - codecov
+  - coveralls

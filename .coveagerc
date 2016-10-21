@@ -4,3 +4,6 @@ source = putio_cli
 
 [report]
 ignore_errors = true
+omit =
+    */python?.?/*
+    */site-packages/nose/*
