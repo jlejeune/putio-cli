@@ -5,13 +5,16 @@
 putio-cli
 
 Usage:
-  putio-cli --oauth_token=<token> [options] <command> [<args>...]
+  putio-cli [options] <command> [<args>...]
+
+Commands:
+  config                    manage config file
 
 General options:
   -h --help                 show help message and exit
   --version                 show version and exit
   -v --verbose              print status messages
-  --oauth_token=<token>     use token to identify user
+  --config=FILE             select config file [default: ~/.putio-cli/config.ini]
 
 See putio-cli <command> --help for more information on a specific command.
 """
@@ -46,8 +49,7 @@ def main():
         command.run()
 
     else:
-        print "This command '%s' doesn't exist, try `putio-cli --help`" % cmd
-        sys.exit(1)
+        sys.exit("This command '%s' doesn't exist, try `putio-cli --help`" % cmd)
 
 
 if __name__ == '__main__':
