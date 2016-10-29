@@ -9,7 +9,7 @@ class Base(object):
         self.options = options
 
         # define putio client
-        self.client = putio.Client(options['--oauth_token'])
+        #self.client = putio.Client(options['--oauth_token'])
 
     def run(self):
         raise NotImplementedError('You must implement the run() method yourself!')

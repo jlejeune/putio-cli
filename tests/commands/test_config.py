@@ -14,8 +14,8 @@ class TestConfig(TestCase):
         self.assertTrue('Usage:' in output)
 
     def test_create_template(self):
-        popen(['python', 'putio-cli', '--config', self.test_config_file, 'config', 'template'],
-              stdout=PIPE).communicate()[0]
+        output = popen(['python', 'putio-cli', '--config', self.test_config_file, 'config', 'template'],
+                       stdout=PIPE).communicate()[0]
         self.assertTrue(os.path.exists(self.test_config_file))
 
         output = popen(['python', 'putio-cli', '--config', self.test_config_file, 'config', 'template'],

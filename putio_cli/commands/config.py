@@ -4,8 +4,9 @@ import ConfigParser
 import os
 import sys
 
+from putio_cli.commands.base import Base
 
-class Config():
+class Config(Base):
     """
     config command to manage configuration file
 
@@ -18,7 +19,7 @@ class Config():
     """
 
     def __init__(self, options):
-        self.options = options
+        Base.__init__(self, options)
         self.cfgfilename = os.path.expanduser(self.options['--config'])
 
         # create dir if needed
