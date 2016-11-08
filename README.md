@@ -48,7 +48,7 @@ Configuration
 
 3. Fill your putio-cli configuration file with your dedicated oauth token:
     ```
-    cat /Users/jlejeune/.putio-cli/config.ini
+    cat ~/.putio-cli/config.ini
     [Settings]
     oauth-token = XXXXXX
     ```
