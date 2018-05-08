@@ -13,3 +13,12 @@ coverage.xml
 # Packages
 *.egg
 *.egg-info
+
+# IDEs
+.idea/
+
+# Environments
+.env
+.venv
+env/
+venv/
