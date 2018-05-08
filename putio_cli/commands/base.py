@@ -3,7 +3,7 @@
 import ConfigParser
 import os
 
-import putio
+import putiopy
 
 
 class Base(object):
@@ -32,7 +32,7 @@ class BaseClient(Base):
         Base.__init__(self, options)
 
         # define putio client
-        self.client = putio.Client(options['Settings.oauth-token'])
+        self.client = putiopy.Client(options['Settings.oauth-token'])
 
     def run(self):
         raise NotImplementedError(
