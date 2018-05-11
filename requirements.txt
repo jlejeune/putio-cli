@@ -1,3 +1,2 @@
 putio.py
 docopt
-prettytable
