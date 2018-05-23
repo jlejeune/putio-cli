@@ -52,3 +52,8 @@ Configuration
     [Settings]
     oauth-token = XXXXXX
     ```
+
+4. Finally, you can check the content of your putio-cli configuration file using this command:
+    ```
+    putio-cli config show
+    ```
